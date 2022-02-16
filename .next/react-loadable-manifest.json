@@ -1,0 +1,14 @@
+{
+  "../components/Footer.tsx -> react-tooltip": {
+    "id": "./node_modules/react-tooltip/dist/index.es.js",
+    "files": [
+      "static/chunks/node_modules_react-tooltip_dist_index_es_js.js"
+    ]
+  },
+  "../components/Header.tsx -> react-tooltip": {
+    "id": "./node_modules/react-tooltip/dist/index.es.js",
+    "files": [
+      "static/chunks/node_modules_react-tooltip_dist_index_es_js.js"
+    ]
+  }
+}
