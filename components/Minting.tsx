@@ -88,6 +88,15 @@ export default function Minting() {
   return (
     <>
       <h2 className="text-4xl mb-4">Minting</h2>
+      <p className="mb-4">The Skulls In Love NFTs need you to mint. The 10,000 characters will finally appear in 
+      <a href="https://testnets.opensea.io/collection/boredcreppycarpinchos" rel="noopener noreferrer" target="_blank" className="font-bold"> OpenSea </a>
+       after being minted. Polygon's gas fees are soooo cheap that you don't have to worry about it at all! Enjoy what kind of character will appear after minting!</p>
+       <div className="border-2 border-pink-500 rounded bg-gray-900 text-gray-300 px-4 py-3 space-y-3"><p>The current minting price is <span className="text-pink-500 font-bold">4 MATIC</span>
+        per NFT. It will increase step by step depending on the total supply, so the earlier you mint, the cheaper you can get! See the <a href="/#faq">
+          <span className="text-pink-500 font-normal underline">
+          FAQ</span> </a>section below for more information.</p> <span className="border-gray-600"></span> <p>If you mint a <span className="text-yellow-400">lucky SIL</span>
+          , you'll get <span className="text-yellow-400 font-bold">20 MATIC</span>
+       ! See the <a className="text-pink-500 font-normal underline" href="/win">SIL with WIN</a> page for details.</p></div>
 
       {active && account ? (
         <div className="space-y-4 mb-4">
