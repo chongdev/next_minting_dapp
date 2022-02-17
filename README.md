@@ -4,14 +4,14 @@ A simple, fast and modern dApp for minting NFTs.
 
 Just set up some configurations and add your own **ABI**.
 
-The actual dApp is here: [Skulls In Love](https://www.skullsin.love/)
+The actual dApp is here: [Bored Creepy Capybaras](https://next-minting-dapp.vercel.app/)
 
 ## Usage
 
 1. Clone this project:
 
 ```sh
-git clone https://github.com/kjmczk/nextjs-nft-mint-dapp.git
+git clone https://github.com/tomiwolf/next_minting_dapp
 ```
 
 2. Change into the directory:

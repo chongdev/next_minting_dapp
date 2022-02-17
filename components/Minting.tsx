@@ -89,7 +89,7 @@ export default function Minting() {
     <>
       <h2 className="text-4xl mb-4">Minting</h2>
       <p className="mb-4">The Bored Creepy Capybaras NFTs need you to mint. The 1,000 characters will finally appear in 
-      <a href="https://testnets.opensea.io/collection/boredcreppycarpinchos" rel="noopener noreferrer" target="_blank" className="font-bold"> OpenSea </a>
+      <a href="https://testnets.opensea.io/collection/bored-creepy-carpinchos" rel="noopener noreferrer" target="_blank" className="font-bold"> OpenSea </a>
        after being minted. Rinkeby's gas fees are soooo cheap that you don't have to worry about it at all! Enjoy what kind of character will appear after minting!</p>
        
        {/* <div className="border-2 border-pink-500 rounded bg-gray-900 text-gray-300 px-4 py-3 space-y-3"><p>The current minting price is <span className="text-pink-500 font-bold">4 MATIC</span>
