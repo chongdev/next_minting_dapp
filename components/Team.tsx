@@ -1,8 +1,8 @@
-// import Image from 'next/image';
+import Image from 'next/image';
 
-// import Creator from '../public/assets/creator.png';
+import Creator from '../public/assets/creator.png';
 
-// export default function Team() {
+export default function Team() {
 //   return (
 //     <div className="text-center">
 //       <h2 className="text-2xl text-gray-100 mb-4">Creator & Developer</h2>
@@ -26,5 +26,5 @@
 //         </a>
 //       </p>
 //     </div>
-//   );
-// }
+ // );
+}
