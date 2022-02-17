@@ -7,7 +7,7 @@ import Prose from '../components/Prose';
 import Minting from '../components/Minting';
 import Faq from '../components/Faq';
 import Roadmap from '../components/Roadmap';
-import Team from '../components/Team';
+// import Team from '../components/Team';
 import topImage from '../public/assets/1920x600.png';
 
 const Home: NextPage = () => {
@@ -50,11 +50,11 @@ const Home: NextPage = () => {
         </Prose>
       </div>
 
-      <div className="bg-gray-800 py-8">
+      {/* <div className="bg-gray-800 py-8">
         <Prose>
           <Team />
         </Prose>
-      </div>
+      </div> */}
     </Layout>
   );
 };
