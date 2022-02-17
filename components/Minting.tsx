@@ -199,7 +199,7 @@ export default function Minting() {
           <div className="space-y-4">
             <p>
               Please make sure you are connected to the correct address and the
-              correct network (Polygon Mainnet) before purchasing. The operation
+              correct network (Rinkeby testnet) before purchasing. The operation
               cannot be undone after purchase.
             </p>
             <p>
