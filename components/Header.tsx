@@ -10,7 +10,7 @@ import Container from './Container';
 import NextLink from './NextLink';
 import { useContractContext } from '../context/Contract';
 import { injected } from '../utils/wallet/connectors';
-import Logo from '../public/assets/logo.png';
+import Logo from '../public/assets/logo.jpeg';
 
 const ReactTooltip = dynamic(() => import('react-tooltip'), {
   ssr: false,
@@ -58,9 +58,9 @@ export default function Header() {
     <div className="sticky top-0 z-50">
       <header className="bg-gray-900 border-b py-2">
         <Container>
-          <div className="flex justify-between items-left">
+          <div className="flex justify-between items-center">
             <NextLink href="/" className="text-2xl font-bold text-white">
-              <span className="flex items-left">
+              <span className="flex items-center">
                 <Image
                   src={Logo}
                   alt={process.env.NEXT_PUBLIC_NFT_NAME}
@@ -74,7 +74,7 @@ export default function Header() {
               </span>
             </NextLink>
 
-            <div className="flex items-left space-x-2 ml-2 sm:ml-0">
+            <div className="flex items-center space-x-2 ml-2 sm:ml-0">
               <ReactTooltip
                 id="header"
                 place="bottom"
@@ -117,7 +117,7 @@ export default function Header() {
               </a>
 
               {active && account ? (
-                <span className="flex items-left space-x-2 p-2 bg-gray-700 rounded-full">
+                <span className="flex items-center space-x-2 p-2 bg-gray-700 rounded-full">
                   <span>
                     <Blockies
                       seed={account.toLowerCase()}

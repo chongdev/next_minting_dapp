@@ -38,17 +38,17 @@ const Home: NextPage = () => {
         </Prose>
       </div>
 
-      <div className="bg-gray-800 py-8">
+      {/* <div className="bg-gray-800 py-8">
         <Prose>
           <Faq />
         </Prose>
-      </div>
+      </div> */}
 
-      <div className="py-8">
+      {/* <div className="py-8">
         <Prose>
           <Roadmap />
         </Prose>
-      </div>
+      </div> */}
 
       {/* <div className="bg-gray-800 py-8">
         <Prose>
