@@ -5,8 +5,8 @@ import Image from 'next/image';
 import Layout from '../components/Layout';
 import Prose from '../components/Prose';
 import Minting from '../components/Minting';
-import Faq from '../components/Faq';
-import Roadmap from '../components/Roadmap';
+//import Faq from '../components/Faq';
+//import Roadmap from '../components/Roadmap';
 // import Team from '../components/Team';
 import topImage from '../public/assets/1920x600.png';
 
