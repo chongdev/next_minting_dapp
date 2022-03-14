@@ -1,14 +1,1 @@
-{
-  "../components/Footer.tsx -> react-tooltip": {
-    "id": 8735,
-    "files": [
-      "static/chunks/735.21c5390f994914c8.js"
-    ]
-  },
-  "../components/Header.tsx -> react-tooltip": {
-    "id": 8735,
-    "files": [
-      "static/chunks/735.21c5390f994914c8.js"
-    ]
-  }
-}
+{}
